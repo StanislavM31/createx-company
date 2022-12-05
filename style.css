@@ -45,7 +45,7 @@ ul li:first-child{
     display: flex;
 
 }
-.btn-cons{
+.btn{
     width: 225px;
     padding: 20px 0 20px 0;
     text-align: center;
@@ -102,4 +102,29 @@ main{
     flex-direction: column;
     justify-content: space-between;
     margin-left: 150px;
+}
+.subscribe{
+    background: linear-gradient( #ff403a5b 100%, #F75E05 100%);
+}
+.subscribe-inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 100px;
+}
+.subscribe-img{
+    width: 308px;
+    height: 234px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/illustration.svg);
+}
+.subscribe-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(354px - 120px);
+}
+.btn-subscribe{
+    color: #ffff;
 }
