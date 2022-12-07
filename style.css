@@ -6,11 +6,32 @@
     font-family: 'Lato';
     src: url(./fonts/Lato/Lato-Bold.ttf) format('truetype');
 }
+@font-face{
+    font-family: 'Lato';
+    src: url(./fonts/Lato/Lato-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'Lato';
+    src: url(./fonts/Lato/Lato-Light.ttf) format('truetype');
+}
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: .1rem;
+    color: #424551;
+}
+.h1p{
+    font-size: 20px;
+    color: #787A80;;
 }
 .wrapper-header{
     background: linear-gradient( #ff403a5b 100%, #F75E05 100%);
@@ -62,11 +83,14 @@ ul li:first-child{
     align-items: center;
     padding: 120px 0 120px 0;
 }
+h1{
+    font: 900 46px 'Lato';
+}
 .wrapper-header-text p{
     margin: 0 0 20px 0;
 }
 main{
-    padding: 0 200px;
+    padding: 0 120px;
 }
 .talk{
     padding: 120px 0 0 0;
@@ -86,8 +110,12 @@ main{
  }
 .speaker{
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+
     padding: 180px 0 180px 0;
+}
+.speaker-inner{
+    display: flex;
 }
 .speaker-img{
     width: 458px;
@@ -97,11 +125,21 @@ main{
     align-items: flex-end;
 }
 .speaker-description{
-    height: 100vh;
+    height: 600px;
     display: flex;
     flex-direction: column;
+
     justify-content: space-between;
     margin-left: 150px;
+}
+.speaker-description_logo{
+    display: flex;
+}
+.speaker-description_logo_item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 137px;
+    height: 140px;
 }
 .subscribe{
     background: linear-gradient( #ff403a5b 100%, #F75E05 100%);
