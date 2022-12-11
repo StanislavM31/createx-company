@@ -217,6 +217,12 @@ form{
     flex-direction: column;
     justify-content: space-between;
 }
+form p {
+    margin: 20px 0 10px 0;
+}
+.btn-subscribe{
+    margin-top: 20px;
+}
 .request form input{
     height: 50px;
     width: 420px;
