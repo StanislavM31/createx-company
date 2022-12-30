@@ -199,7 +199,7 @@ input[type="email"]{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(354px - 120px);
+    /* height: calc(354px - 120px); */
 }
 .subscribe-text form{
     display: flex;
@@ -208,6 +208,16 @@ input[type="email"]{
 }
 input[type="checkbox"]{
     margin-right: auto;
+
+}
+.form-checkbox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-checkbox div{
+    margin-left: 10px;
 }
 .btn-subscribe{
     color: #ffff;
