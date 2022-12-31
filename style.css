@@ -254,3 +254,6 @@ form p {
     background-size: contain;
     background-image: url(./assets/illustration_chel.svg)
 }
+.request-form span{
+    margin-top: 10px;
+}
