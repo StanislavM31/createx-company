@@ -1,259 +1,276 @@
-@font-face{
-    font-family: 'Lato';
-    src: url(./fonts/Lato/Lato-Regular.ttf) format('truetype');
+@font-face {
+  font-family: "Lato";
+  src: url(./fonts/Lato/Lato-Regular.ttf) format("truetype");
 }
-@font-face{
-    font-family: 'Lato';
-    src: url(./fonts/Lato/Lato-Bold.ttf) format('truetype');
+@font-face {
+  font-family: "Lato";
+  src: url(./fonts/Lato/Lato-Bold.ttf) format("truetype");
 }
-@font-face{
-    font-family: 'Lato';
-    src: url(./fonts/Lato/Lato-Regular.ttf) format('truetype');
+@font-face {
+  font-family: "Lato";
+  src: url(./fonts/Lato/Lato-Regular.ttf) format("truetype");
 }
-@font-face{
-    font-family: 'Lato';
-    src: url(./fonts/Lato/Lato-Light.ttf) format('truetype');
+@font-face {
+  font-family: "Lato";
+  src: url(./fonts/Lato/Lato-Light.ttf) format("truetype");
 }
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
-body{
-    width: 1200px;
-    margin: 0 auto;
+body {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 25.6px;
-    letter-spacing: .1rem;
-    color: #424551;
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0.1rem;
+  color: #424551;
 }
-.h1p{
-    font-size: 20px;
-    color: #787A80;;
+.h1p {
+  font-size: 20px;
+  color: #787a80;
 }
-.wrapper-header{
-    background: linear-gradient( #ff403a5b 100%, #F75E05 100%);
-    padding-top: 20px;
+.wrapper-header {
+  background: linear-gradient(#ff403a5b 100%, #f75e05 100%);
+  padding-top: 20px;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.logo{
-    background-image: url(./assets/logo.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 130px;
-    height: 22px;
+.logo {
+  background-image: url(./assets/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 130px;
+  height: 22px;
 }
-ul{
-    display: flex;
-    margin: 0 0 0 60px;
-
+ul {
+  display: flex;
+  margin: 0 0 0 60px;
 }
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
 }
-ul li{
-    margin-left: 20px;
+ul li {
+  margin-left: 20px;
 }
-ul li:first-child{
-    margin-left: 0;
+ul li:first-child {
+  margin-left: 0;
 }
-.button-link{
-    text-decoration: none;
-    color: #787A80;
-    line-height: 32px;
+.button-link {
+  text-decoration: none;
+  color: #787a80;
+  line-height: 32px;
 }
-a:hover{
-    color: #424551;
-    text-decoration: underline;
+a:hover {
+  color: #424551;
+  text-decoration: underline;
 }
-.header-wraper-btn{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.header-wraper-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.btn{
-    width: 225px;
-    padding: 20px 0 20px 0;
-    text-align: center;
-    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-    border-radius: 4px;
+.btn {
+  width: 225px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
 }
-.btn:hover{
-    color: #424551;
+.btn:hover {
+  color: #424551;
 }
-.btn-log-reg{
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
+.btn-log-reg {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
-.wrapper-header-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 120px 0 120px 0;
+.wrapper-header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0 120px 0;
 }
-h1{
-    font: 900 46px 'Lato', sans-serif;
+h1 {
+  font: 900 46px "Lato", sans-serif;
 }
-.wrapper-header-text p{
-    margin: 0 0 20px 0;
+.wrapper-header-text p {
+  margin: 0 0 20px 0;
 }
-.wrapper-header-text h1{
-    text-align: center;
+.wrapper-header-text h1 {
+  text-align: center;
 }
-main{
-    padding: 0 120px;
+main {
+  padding: 0 120px;
 }
-.talk{
-    padding: 120px 0 0 0;
+.talk {
+  padding: 120px 0 0 0;
 }
-.talk-wrapper{
-    display: flex;
-    /* width: 1200px; */
+.talk-wrapper {
+  display: flex;
+  /* width: 1200px; */
 }
-.talk p{
-    margin-top: 10px;
+.talk p {
+  margin-top: 10px;
 }
- .talk-shedule{
-    margin-left: 135px;
-    padding: 0 35px;
-    border: 1px solid rgb(238, 234, 234);
-    background-color: rgba(252, 252, 252, 0.863);
- }
-.speaker{
-    display: flex;
-    flex-direction: column;
-
-    padding: 180px 0 180px 0;
+.talk-shedule {
+  margin-left: 135px;
+  padding: 0 35px;
+  border: 1px solid rgb(238, 234, 234);
+  background-color: rgba(252, 252, 252, 0.863);
 }
-.speaker-inner{
-    display: flex;
+.speaker {
+  display: flex;
+  flex-direction: column;
+  /* min-width: 630px; */
+  padding: 180px 0 180px 0;
 }
-.speaker-img{
-    width: 458px;
-    height: 580px;
-    background-color: yellow;
-    display: flex;
-    align-items: flex-end;
+.speaker-inner {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1200px;
 }
-.speaker-description{
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: space-between;
-    margin-left: 150px;
+.speaker-img {
+  width: 458px;
+  height: 580px;
+  background-color: yellow;
+  display: flex;
+  align-items: flex-end;
 }
-.speaker-description_logo{
-    display: flex;
-}
-.speaker-description_logo_item{
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* background-size: cover; глазок */
-    width: 33%;
-    height: 120px;
-}
-.item_1{
-    background-image: url(./assets/Sentinal\ Consulting\ Logo\ 1.svg);
-}
-.item_2{
-    background-image: url(./assets/Del\ Mar\ Strategy\ Logo\ 1.svg);
-}
-.item_3{
-    background-image: url(./assets/nationalHealthLogo.svg);
-}
-.subscribe{
-    background: linear-gradient( #ff403a5b 100%, #F75E05 100%);
-}
-.subscribe-inner{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 60px 100px;
+.speaker-description {
+  /* height: 600px; */
+  /* max-width: 660px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-left: 150px; */
 }
 
-input[type="email"]{
-    height: 50px;
-    margin: 48px 0 24px 0;
+.speaker-description_text{
+    max-width: 650px;
+    font-size: 14px;
 }
-.subscribe-img{
-    width: 308px;
-    height: 234px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(./assets/illustration.svg);
+.speaker-description_logo {
+  display: flex;
 }
-.subscribe-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: calc(354px - 120px); */
+.speaker-description_logo_item {
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-size: cover; глазок */
+  width: 33%;
+  height: 120px;
 }
-.subscribe-text form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.item_1 {
+  background-image: url(./assets/Sentinal\ Consulting\ Logo\ 1.svg);
 }
-input[type="checkbox"]{
-    margin-right: auto;
+.item_2 {
+  background-image: url(./assets/Del\ Mar\ Strategy\ Logo\ 1.svg);
+}
+.item_3 {
+  background-image: url(./assets/nationalHealthLogo.svg);
+}
+.subscribe {
+  background: linear-gradient(#ff403a5b 100%, #f75e05 100%);
+}
+.subscribe-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 100px;
+}
 
+input[type="email"] {
+  height: 50px;
+  margin: 48px 0 24px 0;
 }
-.form-checkbox{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.subscribe-img {
+  width: 308px;
+  height: 234px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./assets/illustration.svg);
 }
-.form-checkbox div{
-    margin-left: 10px;
+.subscribe-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: calc(354px - 120px); */
 }
-.btn-subscribe{
-    color: #ffff;
+.subscribe-text form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+input[type="checkbox"] {
+  margin-right: auto;
+}
+.form-checkbox {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-checkbox div {
+  margin-left: 10px;
+}
+.btn-subscribe {
+  color: #ffff;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 form p {
-    margin: 20px 0 10px 0;
+  margin: 20px 0 10px 0;
 }
-.btn-subscribe{
-    margin-top: 20px;
+.btn-subscribe {
+  margin-top: 20px;
 }
-.request form input{
-    height: 50px;
-    width: 420px;
+.request form input {
+  height: 50px;
+  width: 420px;
 }
-.request{
-    display: flex;
-    height: 505px;
-    margin-top: 120px;
+.request {
+  display: flex;
+  height: 505px;
+  margin-top: 120px;
 }
-.request-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.request-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.request-img{
-    width: 600px;
-    height: 468px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(./assets/illustration_chel.svg)
+.request-img {
+  width: 600px;
+  height: 468px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./assets/illustration_chel.svg);
 }
-.request-form span{
-    margin-top: 10px;
+.request-form span {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  /* Стили для устройств с маленьким экраном, размерами 768px - 991px (планшеты и подобные) */
+}
+@media (max-width: 992px) {
+    /* Стили для ноутбуков и компьютеров с экранами в диапазоне 992px - 1199px */
+    .speaker-inner{
+       justify-content:start;
+    }
+}
+@media (min-width: 1200px) {
+    /* Стили для устройств с большой шириной экрана >1200px */
 }
