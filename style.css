@@ -88,6 +88,7 @@ a:hover {
   border-radius: 4px;
 }
 .btn:hover {
+  cursor: pointer;
   color: #424551;
 }
 .btn-log-reg {
@@ -236,6 +237,9 @@ form p {
 }
 .btn-subscribe {
   margin-top: 20px;
+}
+.btn-subscribe.btn:hover{
+  cursor: pointer;
 }
 .request form input {
   height: 50px;
